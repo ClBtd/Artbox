@@ -1,13 +1,13 @@
 <?php require 'elements/header.php'; ?>
 
-<form action="traitement.php" method="POST">
+<form action="post_work.php" method="POST">
     <div class="champ-formulaire">
-        <label for="titre">Titre de l'œuvre</label>
-        <input type="text" name="titre" id="titre">
+        <label for="work_title">Titre de l'œuvre</label>
+        <input type="text" name="work_title" id="work_title">
     </div>
     <div class="champ-formulaire">
-        <label for="artiste">Auteur de l'œuvre</label>
-        <input type="text" name="artiste" id="artiste">
+        <label for="painter">Auteur de l'œuvre</label>
+        <input type="text" name="painter" id="painter">
     </div>
     <div class="champ-formulaire">
         <label for="image">URL de l'image</label>
